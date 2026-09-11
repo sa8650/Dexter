@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# TODO: replace with your real domain before launch.
+Sitemap: https://nextlayer.studio/sitemap.xml
