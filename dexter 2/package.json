@@ -1,0 +1,15 @@
+{
+  "name": "nextlayer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "NextLayer — dynamic landing page with a custom-auth admin dashboard, on Cloudflare Pages, Pages Functions and D1.",
+  "scripts": {
+    "dev": "wrangler pages dev . --compatibility-date=2026-08-05 --d1=DB --ip 0.0.0.0",
+    "deploy": "wrangler pages deploy . --project-name=nextlayer",
+    "check": "wrangler pages functions build --compatibility-date=2026-08-05"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

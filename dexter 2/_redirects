@@ -1,0 +1,4 @@
+# No redirect rules on purpose — do NOT add an /admin rule here.
+# Cloudflare Pages serves admin.html natively at the clean URL /admin, and it
+# strips ".html" (/admin.html -> 308 /admin). A "200 rewrite" rule would fight
+# that normalization and loop forever (ERR_TOO_MANY_REDIRECTS).

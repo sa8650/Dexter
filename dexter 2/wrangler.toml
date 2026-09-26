@@ -1,0 +1,4 @@
+# Minimal config — bindings and secrets live in the Cloudflare dashboard
+# (Pages project settings + `wrangler pages secret`), never in this file.
+name = "nextlayer"
+compatibility_date = "2026-08-05"
